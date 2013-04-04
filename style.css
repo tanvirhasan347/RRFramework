@@ -29,3 +29,4 @@ ul, ol {margin:15px;margin-right:0}
 #nav ul li a:hover {color:#000}
 #nav ul ul {position: absolute; left: 100%; top:0;}
 
+.button {border:none}
