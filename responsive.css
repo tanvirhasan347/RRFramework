@@ -1,0 +1,29 @@
+/* Default Layout: 992px.  */
+.selectnav {display:none}
+#nav {display: inline-table;}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.selectnav {display:none}
+#nav {display: inline-table;}
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.selectnav {display:block}
+#nav {display: none;}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.selectnav {display:block}
+#nav {display: none;}
+}
